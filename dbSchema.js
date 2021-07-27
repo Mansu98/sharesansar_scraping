@@ -1,6 +1,6 @@
 var cron = require('node-cron');
 
-cron.schedule('* * * * *', () => {
+cron.schedule('5 6,18 * * *', () => {
 
 var MongoClient = require('mongodb').MongoClient;
 

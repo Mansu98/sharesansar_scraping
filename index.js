@@ -1,6 +1,6 @@
 var cron = require('node-cron');
 
-cron.schedule('* * * * *', () => {
+cron.schedule('0 6,18 * * *', () => {
 
 const request = require("request-promise");
 const cheerio = require("cheerio");
